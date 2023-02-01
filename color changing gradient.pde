@@ -10,7 +10,7 @@ void setup() {
   size(500, 500);
   smooth();
   frameRate(24);
-  gifExport = new GifMaker(this, "randomized lines.gif");
+  gifExport = new GifMaker(this, "color_changing_gradient.gif");
   gifExport.setRepeat(0); // makes the animation go on until it is stopped by the code
   gifExport.setDelay(1000/12);  //12fps
 }
